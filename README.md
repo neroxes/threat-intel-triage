@@ -1,4 +1,13 @@
 # Threat Intel Triage Tool
+<img src="docs/dashboard-main.png" width="900">
+
+<details>
+<summary>More screenshots</summary>
+
+<img src="docs/dashboard-charts.png" width="900">
+<img src="docs/dashboard-details.png" width="900">
+
+</details>
 
 Feed it an SSH log. It extracts every IP, checks each one's **reputation** (VirusTotal, AbuseIPDB),
 analyzes its **behavior** in your own log (failed logins, usernames tried, success after failures),
